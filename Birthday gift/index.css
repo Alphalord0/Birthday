@@ -163,3 +163,48 @@ body{
 .surprise span{
     font-size: 18px;
 }
+@media screen and (max-width: 768px){
+    .contain h3{
+        font-size: 50px;
+    }
+    .contain img{
+        width: 40%;
+        height: 40%;
+    }
+    .start h3{
+        font-size: 50px;
+    }
+    .start p{
+        font-size: 18px;
+    }
+    .start input{
+        width: 300px !important;
+    }
+    .start form button{
+        width: 100px;
+    }
+    .wel img{
+        clip-path: none !important; 
+        display: inline-block !important;
+        position: relative !important;
+        height: 49% !important;
+    }
+    .wel img:nth-child(1){
+        width: 49% !important;
+    }
+    .wel img:nth-child(2){
+        left: 0px !important;
+        width: 49% !important;
+    }
+    .wel .v, .wel .vi, .wel .vid{
+        position:  relative !important;
+        display: inline-block !important;
+        left: 0px !important;
+        width: 49% !important;
+        clip-path: none !important;
+    }
+    .wel .vid{
+        display: none !important;
+    }
+    
+}
